@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>hyunonetwo</title>
+<meta name="description" content="hyunonetwo가 만든 Android 앱 안내.">
+<style>
+  :root {
+    --bg: #fbf9f4; --surface: #ffffff; --text: #1f2430; --muted: #5f6672;
+    --line: #e2dfd7; --accent: #4a63d8;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #14181f; --surface: #1b2029; --text: #e9eaee; --muted: #a9afbc;
+      --line: #2f3644; --accent: #b4c0ff;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.7 -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+    word-break: keep-all; overflow-wrap: anywhere;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.75rem; line-height: 1.3; margin: 0 0 24px; }
+  .app {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 20px;
+  }
+  .app h2 { font-size: 1.15rem; margin: 0 0 4px; }
+  .app p { margin: 0 0 8px; color: var(--muted); }
+  a { color: var(--accent); }
+  footer { margin-top: 32px; color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>hyunonetwo</h1>
+  <section class="app">
+    <h2>알림 금고</h2>
+    <p>지운 알림도 다시 보기. 메신저는 대화방별로, 모든 앱 알림을 기기 안에 기록합니다. (Android)</p>
+    <a href="https://hyunonetwo.github.io/notichest-privacy/">개인정보처리방침</a>
+  </section>
+  <footer>문의: <a href="mailto:hyunonetwo.dev@gmail.com">hyunonetwo.dev@gmail.com</a></footer>
+</main>
+</body>
+</html>
